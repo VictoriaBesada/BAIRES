@@ -1,0 +1,233 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    background: radial-gradient(circle, rgba(255,228,197,1) 0%, rgba(250,245,238,1) 60%);
+}
+/*--------------------------------------HEADER------------------------------------------------------------------*/
+.banner{
+    background-image: url(img/banner.png);
+    height: 8rem;
+    background-color: sienna;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+}
+.navbar{
+    padding: 15vh;
+}
+.navbar :hover{
+    color: black;
+    background-color:rgba(255,228,197,1);
+}
+.navbar li{
+    display: inline-flex;
+    flex-flow: row nowrap;
+}
+.navbar a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    color: white;
+    padding: 1rem;
+    background-color: sienna;
+}
+/*--------------------------------------INDEX--------------------------------------------------------------------*/
+.seccion1{
+    background-image: url(img/cafeteria.jpg);
+    background-color: #D9BBA9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    font-family: 'Ephesis', cursive;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 10rem;
+}
+.seccion2Titulo{
+    font-family: 'Ephesis', cursive;
+    font-size: 2rem;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    justify-content: space-evenly;
+}
+.seccion2Imagen{
+    display: flex;
+    justify-content: space-evenly;
+}
+.seccion2Imagen :hover{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.seccion2Parrafo{
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    display: flex; 
+    margin: 30px;
+}
+.seccion3{
+    background-color: sienna;
+}
+.seccion3Video{
+    float: left;
+    margin: 30px;
+}
+.seccion3Parrafo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: justify;
+    margin: 30px;
+    color: white;
+    padding-bottom: 11rem;
+}
+.seccion4Mapa{
+    display:block;
+    margin:auto;
+}
+/*--------------------------------------NOSOTROS-----------------------------------------------------------------*/
+.grillaNos{
+    display: grid;
+    grid-template-areas: "historia valores"
+    "mision vision";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+}
+.historia{
+grid-area: historia;
+background-color: rgb(182, 134, 112);
+}
+.valores{
+grid-area: valores;
+background-color: sienna;
+}
+.mision{
+grid-area: mision;
+background-color: sienna;
+}
+.vision{
+grid-area: vision;
+background-color: rgb(182, 134, 112);
+}
+.historia, .valores, .mision, .vision{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    padding: 2rem;
+}
+/*--------------------------------------SERVICIOS----------------------------------------------------------------*/
+#grilla{
+    display: grid;
+    grid-template-areas: "titulo titulo"
+    "boxes empresas";
+    grid-template-rows: 1fr 40fr;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+.titulo{
+    grid-area: titulo; 
+    font-family: 'Ephesis', cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+.boxes{
+    grid-area: boxes;
+    font-size: 1rem;
+    padding-left: 2rem;
+    text-align: center;
+}
+.empresas{
+    grid-area: empresas;
+    font-size: 1rem;
+    padding-right: 2rem;
+    text-align: center;
+}
+.boton{
+    background-color: rgba(178, 240, 178, 0.925);
+    border-color: lightgrey;
+    border-radius: 30px;
+    height: 3rem;
+    width: 10rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.individuales img, .eventos img{
+    padding-top: 2rem;
+}
+.individuales h2, .eventos h2{
+    padding-top: 3rem;
+}
+/*--------------------------------------MENU---------------------------------------------------------------------*/
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+.tituloMenu{
+    font-family: 'Ephesis', cursive;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+/*--------------------------------------CONTACTO-----------------------------------------------------------------*/
+.formulario1{
+font-family: 'Raleway', sans-serif;
+font-size: 1rem;
+padding: 5vh;
+display: flex; 
+background-image: url(img/ciudad.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.formtitle{
+    font-family: 'Ephesis', cursive;
+    font-size: 3rem;
+}
+.fondoBlanco{
+    background-color:rgba(255,228,197,1);
+    padding: 1rem;
+    text-align: center;
+}
+/* -------------------------------------FOOTER------------------------------------------------------------------ */
+.grilla2{
+    display: grid;
+    grid-template-areas: "lista1 lista2"
+    "lista1 lista2";
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+    background-color: #3A8057 ;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 15px;
+}
+.lista1{
+    grid-area: lista1;
+    text-align: left;
+}
+.lista1 li, .lista2 li{
+    list-style: none;
+}
+.lista1 a{
+    color: inherit;
+    text-decoration: inherit;
+}
+.lista2{
+    grid-area: lista2;
+    text-align: left;
+}
+.lista2 a{
+    color: inherit;
+}
