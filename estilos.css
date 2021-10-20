@@ -186,11 +186,14 @@ background-color: rgb(182, 134, 112);
 .formulario1{
 font-family: 'Raleway', sans-serif;
 font-size: 1rem;
-padding: 5vh;
-display: flex; 
+padding-left: 70vh;
+padding-right: 70vh;
+padding-bottom: 5vh;
 background-image: url(img/ciudad.jpg);
 background-size: cover;
 background-repeat: no-repeat;
+display: flexbox;
+justify-content: center;
 }
 .formtitle{
     font-family: 'Ephesis', cursive;
@@ -199,7 +202,7 @@ background-repeat: no-repeat;
 .fondoBlanco{
     background-color:rgba(255,228,197,1);
     padding: 1rem;
-    text-align: center;
+    text-align: center; 
 }
 /* -------------------------------------FOOTER------------------------------------------------------------------ */
 .grilla2{
