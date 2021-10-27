@@ -2,91 +2,40 @@
     padding: 0px;
     margin: 0px;
 }
-.main{
-    background: radial-gradient(circle, rgba(255,228,197,1) 0%, rgba(250,245,238,1) 60%);
-}
 /*--------------------------------------HEADER------------------------------------------------------------------*/
 .banner{
-    background-image: url(img/banner.png);
-    height: 8rem;
-    background-color: sienna;
-    background-repeat: no-repeat;
+    background: url(img/cafeteria.jpg) no-repeat center;
     background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    padding-left: 3rem;
+    min-height: 100vh;
 }
 .navbar{
-    padding: 15vh;
+    background-color:black;
+    opacity: 90%;
 }
-.navbar :hover{
-    color: black;
-    background-color:rgba(255,228,197,1);
-}
-.navbar li{
-    display: inline-flex;
-    flex-flow: row nowrap;
-}
-.navbar a{
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1rem;
+.nav-item a{
+    text-decoration: inherit;
     color: white;
-    padding: 1rem;
-    background-color: sienna;
+}
+#navbarNav ul :hover{
+    color: #F29F05;
+}
+.logo{
+    margin-right: 12rem;
+    margin-left: 2rem;
+}
+.d-flex button{
+    color:white;
+    margin-right: 2rem;
 }
 /*--------------------------------------INDEX--------------------------------------------------------------------*/
-.seccion1{
-    background-image: url(img/cafeteria.jpg);
-    background-color: #D9BBA9;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 80vh;
-    font-family: 'Ephesis', cursive;
-    font-size: 3rem;
-    text-align: center;
-    padding-top: 10rem;
-}
-.seccion2Titulo{
-    font-family: 'Ephesis', cursive;
-    font-size: 2rem;
-    display: flex;
-    padding-top: 40px;
-    padding-bottom: 15px;
-    justify-content: space-evenly;
-}
-.seccion2Imagen{
+.seccion2{
     display: flex;
     justify-content: space-evenly;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
-.seccion2Imagen :hover{
-    transform: scale(1.1);
-    transition: all 1s;
-}
-.seccion2Parrafo{
-    font-family: 'Raleway', sans-serif;
-    font-style: italic;
-    display: flex; 
-    margin: 30px;
-}
-.seccion3{
-    background-color: sienna;
-}
-.seccion3Video{
-    float: left;
-    margin: 30px;
-}
-.seccion3Parrafo{
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.5rem;
-    font-style: italic;
-    text-align: justify;
-    margin: 30px;
-    color: white;
-    padding-bottom: 11rem;
+.card-title{
+    text-transform: uppercase;
 }
 .seccion4Mapa{
     display:block;
@@ -102,43 +51,57 @@
     grid-row-gap: 10px;
     grid-column-gap: 20px;
 }
+.grillaNos h2{
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 .historia{
 grid-area: historia;
-background-color: rgb(182, 134, 112);
 }
 .valores{
 grid-area: valores;
-background-color: sienna;
 }
 .mision{
 grid-area: mision;
-background-color: sienna;
 }
 .vision{
 grid-area: vision;
-background-color: rgb(182, 134, 112);
 }
 .historia, .valores, .mision, .vision{
-    font-family: 'Raleway', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1rem;
-    padding: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+.bannerNosotros{
+    background-image: url(img/fondoNosotros.png);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 70vh;
 }
 /*--------------------------------------SERVICIOS----------------------------------------------------------------*/
+.bannerServicios{
+    background-image: url(img/fondoServicios.png);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 70vh;
+}
 #grilla{
     display: grid;
     grid-template-areas: "titulo titulo"
-    "boxes empresas";
+    "boxes empresas"
+    "numeracion numeracion";
     grid-template-rows: 1fr 40fr;
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 10px;
     grid-column-gap: 20px;
-    font-family: 'Raleway', sans-serif;
-    padding-top: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-bottom: 5rem;
 }
 .titulo{
     grid-area: titulo; 
-    font-family: 'Ephesis', cursive;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 3rem;
     text-align: center;
 }
@@ -160,15 +123,17 @@ background-color: rgb(182, 134, 112);
     border-radius: 30px;
     height: 3rem;
     width: 10rem;
-    font-family: 'Raleway', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1rem;
     font-weight: bold;
 }
-.individuales img, .eventos img{
-    padding-top: 2rem;
-}
 .individuales h2, .eventos h2{
     padding-top: 3rem;
+}
+.numeracion{
+    grid-area: numeracion;
+    display: flex;
+    justify-content: center;
 }
 /*--------------------------------------MENU---------------------------------------------------------------------*/
 .menu{
@@ -176,43 +141,30 @@ background-color: rgb(182, 134, 112);
     justify-content: space-evenly;
     padding: 2rem;
 }
-.tituloMenu{
-    font-family: 'Ephesis', cursive;
-    font-size: 3rem;
-    text-align: center;
-    padding-top: 2rem;
+.bannerMenu{
+    background-image: url(img/fondoMenu.png);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 70vh;
 }
 /*--------------------------------------CONTACTO-----------------------------------------------------------------*/
-.formulario1{
-font-family: 'Raleway', sans-serif;
-font-size: 1rem;
-padding-left: 70vh;
-padding-right: 70vh;
-padding-bottom: 5vh;
-background-image: url(img/fondoFormulario.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-display: flexbox;
-justify-content: center;
+.bannerContacto{
+    background: url(img/fondoContacto.png) no-repeat bottom;
+    background-size: cover;
+    min-height: 70vh;
 }
-.formtitle{
-    font-family: 'Ephesis', cursive;
-    font-size: 3rem;
-}
-.fondoBlanco{
-    background-color:rgba(255,228,197,1);
-    padding: 1rem;
-    text-align: center; 
+.formulario{
+    padding: 2rem;
 }
 /* -------------------------------------FOOTER------------------------------------------------------------------ */
 .grilla2{
     display: grid;
-    grid-template-areas: "lista1 lista2"
-    "lista1 lista2";
+    grid-template-areas: "lista1 lista2 lista3"
+    "lista1 lista2 lista3";
     grid-template-columns: 1fr 1fr;
     padding: 2rem;
-    background-color: #3A8057 ;
-    font-family: 'Raleway', sans-serif;
+    background-color: #F29F05;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
     font-size: 15px;
 }
@@ -229,8 +181,15 @@ justify-content: center;
 }
 .lista2{
     grid-area: lista2;
-    text-align: left;
 }
-.lista2 a{
+.lista3{
+    grid-area: lista3;
+}
+.lista3 a{
     color: inherit;
+    font-size: 3rem;
+    padding-right: 1rem;
+}
+.modal-header h5{
+    color: black;
 }
