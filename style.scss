@@ -38,7 +38,7 @@
 .card-title{
     text-transform: uppercase;
 }
-.seccion4Mapa{
+.seccion3__mapa{
     display:block;
     margin-bottom: 2rem;
 }
@@ -82,6 +82,9 @@ grid-area: vision;
     background-size: cover;
     background-position: bottom;
     min-height: 70vh;
+}
+.grillaNos__titulo--centrado{
+    text-align: center ;
 }
 /*--------------------------------------SERVICIOS----------------------------------------------------------------*/
 .bannerServicios{
@@ -141,6 +144,10 @@ grid-area: vision;
     justify-content: space-evenly;
     padding: 2rem;
 }
+.menu__imagen{
+    border-style: double;
+    border-width: 1rem;
+}
 .bannerMenu{
     background-image: url(img/fondoMenu.png);
     background-size: cover;
@@ -168,30 +175,33 @@ grid-area: vision;
     color: white;
     font-size: 15px;
 }
-.lista1{
+.grilla2__lista1{
     grid-area: lista1;
     text-align: left;
 }
-.lista1 li, .lista2 li{
-    list-style: none;
+.grilla2__lista1 li, .grilla2__lista2 li{
+     list-style: none;
 }
-.lista1 a{
+.grilla2__lista1 a{
     color: inherit;
     text-decoration: inherit;
 }
-.lista2{
+.grilla2__lista2{
     grid-area: lista2;
 }
-.lista3{
+.grilla2__lista3{
     grid-area: lista3;
 }
-.lista3 a{
+.grilla2__lista3 a{
     color: inherit;
     font-size: 3rem;
     padding-right: 1rem;
 }
-.lista3 button{
+.grilla2__lista3 button{
     margin-bottom: 1rem;
+}
+.grilla2__lista1--titulo, .grilla2__lista2--titulo{
+    font-size: 1.5rem;
 }
 .modal-header h5{
     color: black;
