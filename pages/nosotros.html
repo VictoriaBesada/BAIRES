@@ -11,134 +11,115 @@
 </head>
 
 <body>
-    
-    <header class="bannerNosotros">
+  
+  <header class="bannerNosotros">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+      <div class="container-fluid" >
+        <a href="../index.html"><img class="logo" src="../img/logo.png" alt="logo" style="width: 14rem;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/menu.html">Menú</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-warning" type="submit">Buscar</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="grillaNos">
+      <div>
+        <h2>Nuestra historia</h2>
+        <p class="historia">Siempre tuvimos el sueño de abrir nuestra propia panadería. Nuestra pasión era cocinar pastelería típica de nuestro país, Argentina y cada vez nos perfeccionabamos más. Cuando nos mudamos a Valencia, a pesar de que nos sentimos en casa casi al instante, extrañabamos mucho las facturas, tomar un cafecito en una cafetería acompañado de unas buenas medialunas con dulce de leche era algo que necesitabamos tener en nuestro nuevo hogar. Es asi como comenzó esta idea de poner nuestra propia cafeteria argentina, un lugar en donde podamos mostrar al mundo un pedacito de nuestra cultura. ¡El pedacito más rico de nuestra cultura!</p>
+      </div>
+      <div>   
+        <h2>Nuestros valores</h2>
+        <ol class="valores">
+          <li>Pasión por lo que hacemos</li>
+          <li>Vocación en el servicio al cliente</li>
+          <li>Calidad, creatividad e innovación en cada uno de nuestros productos</li>
+          <li>Compromiso con el medio ambiente</li>
+        </ol>
+      </div>  
+      <div>
+        <h2>Nuestra misión</h2>
+        <p class="mision">Cada día buscamos satisfacer a nuestros clientes con productos y un servicio de primera calidad. Siempre asegurándonos de mantener un espacio cómodo y seguro para todos. Queremos ofrecer un pedacito de "casa" a nuestros clientes argentinos y una experiencia y sabores nuevos a aquellos que se animen a experimentar un poco de la gastronomia argentina.</p>
+      </div>
+      <div>  
+        <h2>Nuestra visión</h2>  
+        <p class="vision">Posicionarnos como la cafetería argentina mejor reconocida en Valencia. Buscamos ser el principal proveedor no solo de cafés y pastelería argentina sino también de una típica experiencia argentina en el exterior, para aquellos que quieran conectar con sus raíces.</p>
+      </div>
+    </section>
+  </main>
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
-            <div class="container-fluid" >
-              <a href="../index.html"><img class="logo" src="../img/logo.png" alt="logo" style="width: 14rem;"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../pages/nosotros.html">Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/servicios.html">Servicios</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/menu.html">Menú</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-                  </li>
-                </ul>
+  <footer class="footer">
+    <section class="grilla2">
+      <div class="lista1">
+        <h3>Sobre nosotros</h3>
+        <ul>
+          <a href="../pages/nosotros.html"><li>Quienes somos</li></a>
+          <a href="../pages/servicios.html"><li>Nuestros servicios</li></a>
+          <a href="../pages/menu.html"><li>Nuestro menú</li></a>
+        </ul>
+      </div>
+      <div class="lista2">
+        <h3>Contactanos!</h3>
+        <p>Estamos a tu disposición</p>
+        <p>0800-123-456</p>
+        <p>cafeteria@baires.com</p>
+      </div>
+      <div class="lista3">
+        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">¡Suscribite a nuestro newsletter!</button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Recibí las mejores ofertas en tu email</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btn-outline-warning" type="submit">Buscar</button>
-              </form>
+              <div class="modal-body">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingresá tu email">
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-success">¡Suscribirme!</button>
+              </div>
             </div>
-          </nav>
+          </div>
+        </div>
+        <h5>También podés contactarnos a través de los siguientes canales:</h5>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/?hl=es"><i class="fab fa-instagram"></i></a>
+        <a href="https://web.whatsapp.com/"><i class="fab fa-whatsapp-square"></i></a>
+      </div>
+    </section>
+  </footer>
 
-    </header>
-
-    <main class="main">
-
-        <section class="grillaNos">
-
-            <div>
-                <h2>Nuestra historia</h2>
-                <p class="historia">Siempre tuvimos el sueño de abrir nuestra propia panadería. Nuestra pasión era cocinar pastelería típica de nuestro país, Argentina y cada vez nos perfeccionabamos más. Cuando nos mudamos a Valencia, a pesar de que nos sentimos en casa casi al instante, extrañabamos mucho las facturas, tomar un cafecito en una cafetería acompañado de unas buenas medialunas con dulce de leche era algo que necesitabamos tener en nuestro nuevo hogar. Es asi como comenzó esta idea de poner nuestra propia cafeteria argentina, un lugar en donde podamos mostrar al mundo un pedacito de nuestra cultura. ¡El pedacito más rico de nuestra cultura!</p>
-            </div>
-            
-            <div>   
-                <h2>Nuestros valores</h2>
-                <ol class="valores">
-                    <li>Pasión por lo que hacemos</li>
-                    <li>Vocación en el servicio al cliente</li>
-                    <li>Calidad, creatividad e innovación en cada uno de nuestros productos</li>
-                    <li>Compromiso con el medio ambiente</li>
-                </ol>
-            </div>  
-            
-            <div>    
-                <h2>Nuestra misión</h2>
-                <p class="mision">Cada día buscamos satisfacer a nuestros clientes con productos y un servicio de primera calidad. Siempre asegurándonos de mantener un espacio cómodo y seguro para todos. Queremos ofrecer un pedacito de "casa" a nuestros clientes argentinos y una experiencia y sabores nuevos a aquellos que se animen a experimentar un poco de la gastronomia argentina.</p>
-            </div>
-             
-            <div>  
-                <h2>Nuestra visión</h2>  
-                <p class="vision">Posicionarnos como la cafetería argentina mejor reconocida en Valencia. Buscamos ser el principal proveedor no solo de cafés y pastelería argentina sino también de una típica experiencia argentina en el exterior, para aquellos que quieran conectar con sus raíces.</p>
-            </div>
-
-        </section>
-
-    </main>
-
-    <footer class="footer">
-
-        <section class="grilla2">
-
-            <div class="lista1">
-                <h3>Sobre nosotros</h3>
-                <ul>
-                    <a href="../pages/nosotros.html"><li>Quienes somos</li></a>
-                    <a href="../pages/servicios.html"><li>Nuestros servicios</li></a>
-                    <a href="../pages/menu.html"><li>Nuestro menú</li></a>
-                </ul>
-            </div>
-            
-            <div class="lista2">
-                <h3>Contactanos!</h3>
-                <p>Estamos a tu disposición</p>
-                <p>0800-123-456</p>
-                <p>cafeteria@baires.com</p>
-
-            </div>
-
-            <div class="lista3">
-                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    ¡Suscribite a nuestro newsletter!
-                  </button>
-                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">Recibí las mejores ofertas en tu email</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingresá tu email">
-                              </div>
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                          <button type="button" class="btn btn-success">¡Suscribirme!</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <BR></BR>
-                  <h5>También podés contactarnos a través de los siguientes canales:</h5>
-                <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-                <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
-                <a href="https://www.instagram.com/?hl=es"><i class="fab fa-instagram"></i></a>
-                <a href="https://web.whatsapp.com/"><i class="fab fa-whatsapp-square"></i></a>
-            </div>
-
-        </section>
-
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
 
 </body>
 </html>
