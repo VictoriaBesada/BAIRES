@@ -1,0 +1,36 @@
+/*_____ INDEX _____*/
+
+.banner{
+    background: url(img/cafeteria.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+    margin-bottom: 2rem;
+    
+    nav{
+        @include nav(black, 90%, 'Alegreya Sans' sans-serif, 1.2rem)
+    }
+
+    img{
+        margin-right: 12rem;
+        margin-left: 2rem;
+    }
+}
+.seccion2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-family: 'Alegreya Sans', sans-serif;
+    text-align: center;
+
+    h5{
+        font-family: 'Alegreya Sans', sans-serif;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+.seccion3__mapa{
+    display:block;
+    margin-bottom: 2rem;
+}
+
