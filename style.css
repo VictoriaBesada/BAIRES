@@ -129,7 +129,7 @@
 
 /*_____ SERVICIOS _____*/
 .bannerServicios {
-  background-image: url(/img/fondoServicios.png);
+  background-image: url(img/fondoServicios.png);
   background-size: cover;
   background-position: bottom;
   min-height: 70vh;
@@ -179,6 +179,7 @@
   #grilla img {
     width: 200px;
     height: 200px;
+    margin: 0px;
   }
 }
 
