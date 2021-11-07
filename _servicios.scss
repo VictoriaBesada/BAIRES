@@ -33,6 +33,15 @@
         padding-top: 3rem;
         font-weight: bold;
     }
+
+    @media screen and (max-width: 600px) {
+        margin: 0px;
+        display: block;
+        img{
+            width: 200px;
+            height: 200px;
+        }
+    }
 }
 
 .boxes{

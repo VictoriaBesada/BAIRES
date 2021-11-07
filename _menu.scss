@@ -1,15 +1,6 @@
 /*_____ MENU _____*/
 
-.menu{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 2rem;
 
-    img{
-        border-style: double;
-        border-width: 1rem;
-    }
-}
 .bannerMenu{
 
     @include banner(url(img/fondoMenu.png), cover, bottom, 70vh)
@@ -20,6 +11,30 @@
 
     img{
         @include img(12rem, 2rem)
+    }
+}
+
+.menu, .combos{
+    display: inline-flex;
+    width: max-content;
+    text-align: center;
+    margin-left: 7rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Alegreya Sans', sans-serif;
+
+    img{
+        padding: 1rem;
+    }
+
+    h5{
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+
+    @media screen and (max-width: 600px) {
+        margin: 0px;
+        display: block;
     }
 }
 

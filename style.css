@@ -77,16 +77,7 @@
   font-family: 'Alegreya Sans', sans-serif;
 }
 
-.grillaNos h2 {
-  padding-top: 2rem;
-  font-size: 2rem;
-  font-family: 'Alegreya Sans', sans-serif;
-  font-weight: bold;
-  text-align: center;
-}
-
 .grillaNos p ol {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1rem;
   padding-right: 2rem;
   padding-left: 2rem;
@@ -180,6 +171,17 @@
   font-weight: bold;
 }
 
+@media screen and (max-width: 600px) {
+  #grilla {
+    margin: 0px;
+    display: block;
+  }
+  #grilla img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
 .boxes {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
@@ -213,21 +215,6 @@
 }
 
 /*_____ MENU _____*/
-.menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  padding: 2rem;
-}
-
-.menu img {
-  border-style: double;
-  border-width: 1rem;
-}
-
 .bannerMenu {
   background-image: url(img/fondoMenu.png);
   background-size: cover;
@@ -245,6 +232,36 @@
 .bannerMenu img {
   margin-right: 12rem;
   margin-left: 2rem;
+}
+
+.menu, .combos {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  text-align: center;
+  margin-left: 7rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.menu img, .combos img {
+  padding: 1rem;
+}
+
+.menu h5, .combos h5 {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  .menu, .combos {
+    margin: 0px;
+    display: block;
+  }
 }
 
 /*_____ CONTACTO _____*/
