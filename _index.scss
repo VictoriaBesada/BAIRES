@@ -1,10 +1,12 @@
 /*_____ INDEX _____*/
 
 .banner{
-    background: url(img/cafeteria.jpg) no-repeat center;
+    background-image: linear-gradient(to bottom, transparent, rgba(54, 49, 49, 0.73)),
+    url(img/cafeteria.jpg);
     background-size: cover;
     min-height: 100vh;
     margin-bottom: 2rem;
+    
 
     
     nav{
@@ -15,6 +17,23 @@
         margin-right: 12rem;
         margin-left: 2rem;
     }
+
+    h1, h2{
+        font-family: 'Alegreya Sans', sans-serif;
+        text-align: center;
+        justify-content:center;
+        color: white;
+        margin-top: 10rem;
+    }
+
+    h1{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    h2{
+        margin-top: 0px;
+    }
 }
 .seccion2{
     display: flex;
@@ -24,7 +43,7 @@
     font-family: 'Alegreya Sans', sans-serif;
     text-align: center;
 
-    h5{
+    h3{
         font-family: 'Alegreya Sans', sans-serif;
         font-weight: bold;
         text-align: center;
