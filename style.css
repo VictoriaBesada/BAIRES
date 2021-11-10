@@ -26,10 +26,20 @@
   }
 }
 
+.heading {
+  text-align: center;
+  font-family: 'Alegreya Sans', sans-serif;
+  background-color: #F29F05;
+  font-size: x-large;
+  margin-top: 16rem;
+  padding: 1rem;
+  font-weight: bold;
+}
+
 /*_____ INDEX _____*/
 .banner {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(54, 49, 49, 0.73))), url(img/cafeteria.jpg);
-  background-image: linear-gradient(to bottom, transparent, rgba(54, 49, 49, 0.73)), url(img/cafeteria.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#363131)), url(img/cafeteria.jpg);
+  background-image: linear-gradient(to bottom, transparent, #363131), url(img/cafeteria.jpg);
   background-size: cover;
   min-height: 100vh;
   margin-bottom: 2rem;
@@ -112,7 +122,8 @@
 
 @media all and (max-width: 600px) {
   .seccion2 {
-    padding-top: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
   .seccion2 p {
     display: none;
@@ -128,6 +139,12 @@
 .seccion3__mapa {
   display: block;
   margin-bottom: 2rem;
+}
+
+@media all and (max-width: 600px) {
+  .seccion3__mapa {
+    margin-bottom: 1rem;
+  }
 }
 
 /*_____ NOSOTROS _____*/
@@ -159,6 +176,7 @@
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 1.5rem;
   padding: 0px;
+  text-align: center;
 }
 
 .grillaNos h3 {
@@ -206,14 +224,14 @@
   min-height: 70vh;
 }
 
-.bannerNosotros nav {
+.navbar {
   background-color: black;
   opacity: 90%;
   font-family: "Alegreya Sans" sans-serif;
   font-size: 1.2rem;
 }
 
-.bannerNosotros img {
+.logo {
   margin-right: 12rem;
   margin-left: 2rem;
 }
@@ -226,14 +244,14 @@
   min-height: 70vh;
 }
 
-.bannerServicios nav {
+.navbar {
   background-color: black;
   opacity: 90%;
   font-family: "Alegreya Sans" sans-serif;
   font-size: 1.2rem;
 }
 
-.bannerServicios img {
+.logo {
   margin-right: 12rem;
   margin-left: 2rem;
 }
@@ -248,7 +266,6 @@
       grid-template-columns: 1fr 1fr;
   grid-row-gap: 10px;
   grid-column-gap: 20px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   padding-bottom: 3rem;
   font-family: 'Alegreya Sans', sans-serif;
 }
@@ -258,8 +275,8 @@
 }
 
 #grilla h3 {
-  padding-top: 3rem;
   font-weight: bold;
+  margin-top: 1.5rem;
 }
 
 @media screen and (max-width: 600px) {
@@ -272,11 +289,29 @@
   }
 }
 
-h2 {
+.primerTitulo {
+  margin-top: 0rem !important;
+}
+
+@media screen and (max-width: 600px) {
+  .primerTitulo {
+    margin-top: 1.5rem !important;
+  }
+}
+
+.descripcion {
   font-family: 'Alegreya Sans', sans-serif;
-  font-size: x-large;
-  padding-top: 4rem;
+  font-size: 1.5rem;
   text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+@media screen and (max-width: 600px) {
+  .descripcion {
+    margin: 2rem;
+  }
 }
 
 .boxes {
@@ -286,11 +321,27 @@ h2 {
   padding-left: 2rem;
 }
 
+@media screen and (max-width: 600px) {
+  .boxes {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+  }
+}
+
 .empresas {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: empresas;
   padding-right: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .empresas {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+  }
 }
 
 .boxes, .empresas {
@@ -325,14 +376,14 @@ h2 {
   min-height: 70vh;
 }
 
-.bannerMenu nav {
+.navbar {
   background-color: black;
   opacity: 90%;
   font-family: "Alegreya Sans" sans-serif;
   font-size: 1.2rem;
 }
 
-.bannerMenu img {
+.logo {
   margin-right: 12rem;
   margin-left: 2rem;
 }
@@ -373,18 +424,18 @@ h2 {
 .bannerContacto {
   background-image: url(img/fondoContacto.png);
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   min-height: 70vh;
 }
 
-.bannerContacto nav {
+.navbar {
   background-color: black;
   opacity: 90%;
   font-family: "Alegreya Sans" sans-serif;
   font-size: 1.2rem;
 }
 
-.bannerContacto img {
+.logo {
   margin-right: 12rem;
   margin-left: 2rem;
 }
@@ -393,6 +444,21 @@ h2 {
   padding: 2rem;
   font-family: 'Alegreya Sans', sans-serif;
   font-weight: bold;
+}
+
+.formulario h2 {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .formulario h2 {
+    margin: 1rem;
+    padding: 0px;
+  }
 }
 
 .titulo2 {

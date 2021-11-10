@@ -1,7 +1,7 @@
 /*_____ INDEX _____*/
 
 .banner{
-    background-image: linear-gradient(to bottom, transparent, rgba(54, 49, 49, 0.73)),
+    background-image: linear-gradient(to bottom, transparent, rgb(54, 49, 49)),
     url(img/cafeteria.jpg);
     background-size: cover;
     min-height: 100vh;
@@ -52,8 +52,8 @@
         img{
         width:auto;
         height:auto;
+        }
     }
-    
 }
 
 .seccion2{
@@ -63,6 +63,7 @@
     margin-bottom: 3rem;
     font-family: 'Alegreya Sans', sans-serif;
     text-align: center;
+    
 
     h3{
         font-family: 'Alegreya Sans', sans-serif;
@@ -71,7 +72,7 @@
     }
 
     @media all and (max-width: 600px) {
-
+    
         p{
           display: none;
         }
@@ -84,11 +85,15 @@
             padding: 0.5rem
         }
 
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 }
 
 .seccion3__mapa{
     display: block;
     margin-bottom: 2rem;
+    @media all and (max-width: 600px){
+        margin-bottom: 1rem;
+    }
 }
-
