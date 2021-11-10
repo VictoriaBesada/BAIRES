@@ -7,8 +7,6 @@
     min-height: 100vh;
     margin-bottom: 2rem;
     
-
-    
     nav{
         @include nav(black, 90%, 'Alegreya Sans' sans-serif, 1.2rem)
     }
@@ -35,6 +33,7 @@
         margin-top: 0px;
     }
 }
+
 .seccion2{
     display: flex;
     justify-content: space-evenly;
@@ -48,9 +47,17 @@
         font-weight: bold;
         text-align: center;
     }
+
+    @media all and (max-width: 600px) {
+        p{
+          display: none;
+        }
+
+        
+    }
 }
+
 .seccion3__mapa{
     display:block;
     margin-bottom: 2rem;
 }
-

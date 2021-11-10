@@ -35,17 +35,12 @@
     }
 
     @media screen and (max-width: 600px) {
-        margin: 0px;
         display: block;
+
         img{
             width: 200px;
             height: 200px;
-            margin: 0px;
         }
-    }
-
-    .titulo1{
-        padding-top: 0px;
     }
 }
 h2{
@@ -64,10 +59,14 @@ h2{
 }
 .boxes, .empresas{
     font-size: 1rem;
-     text-align: center;
+    text-align: center;
 }
 .numeracion{
     grid-area: numeracion;
     display: flex;
     justify-content: center;
+
+    @media screen and (max-width: 600px){
+        margin-top: 2rem;
+    }
 }

@@ -32,3 +32,10 @@
     color:white;
     margin-right: 2rem;
 }
+.d-flex{
+    @media all and (max-width: 600px){
+        display: inline;
+        width: 15rem;
+        padding-left: 2rem;
+    }
+}

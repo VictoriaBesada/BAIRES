@@ -18,6 +18,14 @@
   margin-right: 2rem;
 }
 
+@media all and (max-width: 600px) {
+  .d-flex {
+    display: inline;
+    width: 15rem;
+    padding-left: 2rem;
+  }
+}
+
 /*_____ INDEX _____*/
 .banner {
   background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(54, 49, 49, 0.73))), url(img/cafeteria.jpg);
@@ -77,6 +85,12 @@
   text-align: center;
 }
 
+@media all and (max-width: 600px) {
+  .seccion2 p {
+    display: none;
+  }
+}
+
 .seccion3__mapa {
   display: block;
   margin-bottom: 2rem;
@@ -117,6 +131,13 @@
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 1.5rem;
   text-align: center;
+}
+
+@media all and (max-width: 600px) {
+  .grillaNos {
+    display: block;
+    font-size: 1rem;
+  }
 }
 
 .historia {
@@ -209,18 +230,12 @@
 
 @media screen and (max-width: 600px) {
   #grilla {
-    margin: 0px;
     display: block;
   }
   #grilla img {
     width: 200px;
     height: 200px;
-    margin: 0px;
   }
-}
-
-#grilla .titulo1 {
-  padding-top: 0px;
 }
 
 h2 {
@@ -262,6 +277,12 @@ h2 {
           justify-content: center;
 }
 
+@media screen and (max-width: 600px) {
+  .numeracion {
+    margin-top: 2rem;
+  }
+}
+
 /*_____ MENU _____*/
 .bannerMenu {
   background-image: url(img/fondoMenu.png);
@@ -286,9 +307,7 @@ h2 {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
+  width: 32rem;
   text-align: center;
   margin-left: 7rem;
   margin-top: 2rem;
@@ -306,10 +325,16 @@ h2 {
   padding: 0px;
 }
 
-@media screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
   .menu, .combos {
-    margin: 0px;
+    width: 18rem;
     display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -359,6 +384,13 @@ h2 {
   font-size: 20px;
 }
 
+@media all and (max-width: 600px) {
+  .grilla2 {
+    display: block;
+    text-align: center;
+  }
+}
+
 .grilla2__lista1 {
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
@@ -375,6 +407,13 @@ h2 {
 
 .grilla2__lista1 li {
   list-style: none;
+}
+
+@media all and (max-width: 600px) {
+  .grilla2__lista1 ul {
+    padding: 0rem;
+    text-align: center;
+  }
 }
 
 .grilla2__lista2 {
@@ -414,6 +453,13 @@ h2 {
 
 .grilla2__lista1--titulo {
   margin-left: 2rem;
+}
+
+@media all and (max-width: 600px) {
+  .grilla2__lista1--titulo {
+    margin: 0rem;
+    text-align: center;
+  }
 }
 
 .modal-header h6 {
