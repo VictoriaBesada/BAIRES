@@ -33,10 +33,11 @@
     }
 
     @media all and (max-width: 600px){
-        width: 18rem;
+        width: 15rem;
         display: block;
-        justify-content: center;
-        align-items: center;
+        margin: auto;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
 }
 
