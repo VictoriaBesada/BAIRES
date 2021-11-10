@@ -4,14 +4,14 @@
     
     @include banner(url(img/fondoServicios.png), cover, bottom, 70vh)
 
-    nav{
-        @include nav(black, 90%, 'Alegreya Sans' sans-serif, 1.2rem)
-    }
-
-    img{
-        @include img(12rem, 2rem)
-    }
 }
+.navbar{
+        @include nav(black, 90%, 'Alegreya Sans' sans-serif, 1.2rem)
+}
+.logo{
+    @include img(12rem, 2rem)
+}
+
 #grilla{
     display: grid;
     grid-template-areas: "titulo titulo"
@@ -48,6 +48,12 @@ h2{
     font-size: x-large;
     padding-top: 4rem;
     text-align: center;
+
+    @media all and (max-width: 600px){
+        font-size: 1.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 }
 .boxes{
     grid-area: boxes;

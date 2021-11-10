@@ -3,14 +3,12 @@
 .bannerContacto{
 
     @include banner(url(img/fondoContacto.png), cover, bottom, 70vh)
- 
-    nav{
-        @include nav(black, 90%, 'Alegreya Sans' sans-serif, 1.2rem)
-    }
-
-    img{
-        @include img(12rem, 2rem)
-    }
+}
+.navbar{
+    @include nav(black, 90%, 'Alegreya Sans' sans-serif, 1.2rem)
+}
+.logo{
+    @include img(12rem, 2rem)
 }
 .formulario{
     padding: 2rem;

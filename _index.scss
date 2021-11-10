@@ -6,6 +6,10 @@
     background-size: cover;
     min-height: 100vh;
     margin-bottom: 2rem;
+
+    @media all and (max-width: 600px){
+        margin-bottom: 1rem;
+    }
     
     nav{
         @include nav(black, 90%, 'Alegreya Sans' sans-serif, 1.2rem)
@@ -27,18 +31,36 @@
     h1{
         font-size: 3rem;
         font-weight: bold;
+
+        @media all and (max-width: 600px){
+            font-size: 2rem;
+        }
     }
 
     h2{
         margin-top: 0px;
+
+        @media all and (max-width: 600px){
+            font-size: 1.5rem;
+        }
     }
+}
+
+.carousel-inner{
+
+    @media all and (max-width: 600px){
+        img{
+        width:auto;
+        height:auto;
+    }
+    
 }
 
 .seccion2{
     display: flex;
     justify-content: space-evenly;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     font-family: 'Alegreya Sans', sans-serif;
     text-align: center;
 
@@ -49,15 +71,24 @@
     }
 
     @media all and (max-width: 600px) {
+
         p{
           display: none;
         }
 
-        
+        h3{
+            font-size: 1rem;
+        }
+
+        img{
+            padding: 0.5rem
+        }
+
     }
 }
 
 .seccion3__mapa{
-    display:block;
+    display: block;
     margin-bottom: 2rem;
 }
+

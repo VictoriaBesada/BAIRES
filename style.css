@@ -35,6 +35,12 @@
   margin-bottom: 2rem;
 }
 
+@media all and (max-width: 600px) {
+  .banner {
+    margin-bottom: 1rem;
+  }
+}
+
 .banner nav {
   background-color: black;
   opacity: 90%;
@@ -62,8 +68,27 @@
   font-weight: bold;
 }
 
+@media all and (max-width: 600px) {
+  .banner h1 {
+    font-size: 2rem;
+  }
+}
+
 .banner h2 {
   margin-top: 0px;
+}
+
+@media all and (max-width: 600px) {
+  .banner h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .carousel-inner img {
+    width: auto;
+    height: auto;
+  }
 }
 
 .seccion2 {
@@ -73,8 +98,8 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   font-family: 'Alegreya Sans', sans-serif;
   text-align: center;
 }
@@ -86,8 +111,17 @@
 }
 
 @media all and (max-width: 600px) {
+  .seccion2 {
+    padding-top: 1rem;
+  }
   .seccion2 p {
     display: none;
+  }
+  .seccion2 h3 {
+    font-size: 1rem;
+  }
+  .seccion2 img {
+    padding: 0.5rem;
   }
 }
 
