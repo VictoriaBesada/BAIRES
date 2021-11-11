@@ -1,7 +1,6 @@
 /*_____ CONTACTO _____*/
 
 .bannerContacto{
-
     @include banner(url(img/fondoContacto.png), cover, center, 70vh)
 }
 .navbar{
@@ -21,15 +20,11 @@
         text-align: center;
         margin-top: 2.5rem;
         margin-bottom: 2rem;
+        
         @media screen and (max-width: 600px){
             margin: 1rem;
             padding: 0px;
         }
     }
-}
-.titulo2{
-    font-family: 'Alegreya Sans', sans-serif;
-    text-align: center;
-    padding: 3rem;
 }
 

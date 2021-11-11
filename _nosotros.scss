@@ -1,5 +1,27 @@
 /*_____ NOSOTROS _____*/
 
+.bannerNosotros{
+    @include banner(url(img/fondoNosotros.png), cover, bottom, 70vh)
+}
+.navbar{
+    @include nav(black, 90%, 'Alegreya Sans' sans-serif, 1.2rem)
+}
+.logo{
+    @include img(12rem, 2rem)
+}
+.heading{
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+    background-color:#F29F05;
+    font-size: x-large;
+    margin-top: 20%;
+    padding: 0.8rem;
+    font-weight: bold; 
+
+    @media all and (max-width: 600px){
+        margin-top: 16rem;
+    }
+}
 .grillaNos{
     display: grid;
     grid-template-areas: "historia valores"
@@ -46,19 +68,9 @@ grid-area: historia;
 grid-area: valores;
 list-style:circle;
 }
-
 .mision{
 grid-area: mision;
 }
 .vision{
 grid-area: vision;
-}
-.bannerNosotros{
-    @include banner(url(img/fondoNosotros.png), cover, bottom, 70vh)
-}
-.navbar{
-    @include nav(black, 90%, 'Alegreya Sans' sans-serif, 1.2rem)
-}
-.logo{
-    @include img(12rem, 2rem)
 }

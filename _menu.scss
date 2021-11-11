@@ -1,7 +1,6 @@
 /*_____ MENU _____*/
 
 .bannerMenu{
-
     @include banner(url(img/fondoMenu.png), cover, bottom, 70vh)
 }
 .navbar{
@@ -10,14 +9,13 @@
 .logo{
     @include img(12rem, 2rem)
 }
-.menu, .combos{
-    display: inline-flex;
-    width: 32rem;
+.menu, .combos{ 
+    width: 30rem;
     text-align: center;
-    margin-left: 7rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
     font-family: 'Alegreya Sans', sans-serif;
+    display: inline-flex;
+    justify-content: center;
+    margin: 7vw;
 
     img{
         padding: 1rem;
@@ -30,13 +28,11 @@
     }
 
     @media all and (max-width: 600px){
-        width: 15rem;
+        width: 20rem;
         display: block;
         margin: auto;
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
 }
-
-
 

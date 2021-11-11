@@ -25,7 +25,7 @@
         text-align: center;
         justify-content:center;
         color: white;
-        margin-top: 10rem;
+        margin-top: 14rem;
     }
 
     h1{
@@ -45,7 +45,6 @@
         }
     }
 }
-
 .carousel-inner{
 
     @media all and (max-width: 600px){
@@ -55,7 +54,6 @@
         }
     }
 }
-
 .seccion2{
     display: flex;
     justify-content: space-evenly;
@@ -63,7 +61,6 @@
     margin-bottom: 3rem;
     font-family: 'Alegreya Sans', sans-serif;
     text-align: center;
-    
 
     h3{
         font-family: 'Alegreya Sans', sans-serif;
@@ -72,7 +69,9 @@
     }
 
     @media all and (max-width: 600px) {
-    
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+
         p{
           display: none;
         }
@@ -84,15 +83,12 @@
         img{
             padding: 0.5rem
         }
-
-        margin-top: 1rem;
-        margin-bottom: 1rem;
     }
 }
-
 .seccion3__mapa{
     display: block;
     margin-bottom: 2rem;
+    
     @media all and (max-width: 600px){
         margin-bottom: 1rem;
     }

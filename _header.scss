@@ -28,23 +28,25 @@
 #navbarNav ul :hover{
     color: #F29F05;
 }
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+
+    @media all and (max-width: 600px){
+        position: inherit;
+        left: inherit;
+        transform: inherit;
+    }
+}
 .d-flex button{
     color:white;
     margin-right: 2rem;
 }
 .d-flex{
     @media all and (max-width: 600px){
-        display: inline;
-        width: 15rem;
+        display: flex;
+        width: 80%;
         padding-left: 2rem;
     }
-}
-.heading{
-    text-align: center;
-    font-family: 'Alegreya Sans', sans-serif;
-    background-color:#F29F05;
-    font-size: x-large;
-    margin-top: 16rem;
-    padding: 1rem;
-    font-weight: bold;
 }

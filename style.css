@@ -13,6 +13,22 @@
   color: #F29F05;
 }
 
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translatex(-50%);
+          transform: translatex(-50%);
+}
+
+@media all and (max-width: 600px) {
+  .navbar-center {
+    position: inherit;
+    left: inherit;
+    -webkit-transform: inherit;
+            transform: inherit;
+  }
+}
+
 .d-flex button {
   color: white;
   margin-right: 2rem;
@@ -20,20 +36,12 @@
 
 @media all and (max-width: 600px) {
   .d-flex {
-    display: inline;
-    width: 15rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 80%;
     padding-left: 2rem;
   }
-}
-
-.heading {
-  text-align: center;
-  font-family: 'Alegreya Sans', sans-serif;
-  background-color: #F29F05;
-  font-size: x-large;
-  margin-top: 16rem;
-  padding: 1rem;
-  font-weight: bold;
 }
 
 /*_____ INDEX _____*/
@@ -70,7 +78,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   color: white;
-  margin-top: 10rem;
+  margin-top: 14rem;
 }
 
 .banner h1 {
@@ -148,6 +156,41 @@
 }
 
 /*_____ NOSOTROS _____*/
+.bannerNosotros {
+  background-image: url(img/fondoNosotros.png);
+  background-size: cover;
+  background-position: bottom;
+  min-height: 70vh;
+}
+
+.navbar {
+  background-color: black;
+  opacity: 90%;
+  font-family: "Alegreya Sans" sans-serif;
+  font-size: 1.2rem;
+}
+
+.logo {
+  margin-right: 12rem;
+  margin-left: 2rem;
+}
+
+.heading {
+  text-align: center;
+  font-family: 'Alegreya Sans', sans-serif;
+  background-color: #F29F05;
+  font-size: x-large;
+  margin-top: 20%;
+  padding: 0.8rem;
+  font-weight: bold;
+}
+
+@media all and (max-width: 600px) {
+  .heading {
+    margin-top: 16rem;
+  }
+}
+
 .grillaNos {
   display: -ms-grid;
   display: grid;
@@ -215,25 +258,6 @@
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: vision;
-}
-
-.bannerNosotros {
-  background-image: url(img/fondoNosotros.png);
-  background-size: cover;
-  background-position: bottom;
-  min-height: 70vh;
-}
-
-.navbar {
-  background-color: black;
-  opacity: 90%;
-  font-family: "Alegreya Sans" sans-serif;
-  font-size: 1.2rem;
-}
-
-.logo {
-  margin-right: 12rem;
-  margin-left: 2rem;
 }
 
 /*_____ SERVICIOS _____*/
@@ -389,15 +413,16 @@
 }
 
 .menu, .combos {
+  width: 30rem;
+  text-align: center;
+  font-family: 'Alegreya Sans', sans-serif;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  width: 32rem;
-  text-align: center;
-  margin-left: 7rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  font-family: 'Alegreya Sans', sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 7vw;
 }
 
 .menu img, .combos img {
@@ -412,7 +437,7 @@
 
 @media all and (max-width: 600px) {
   .menu, .combos {
-    width: 15rem;
+    width: 20rem;
     display: block;
     margin: auto;
     padding-top: 1rem;
@@ -459,12 +484,6 @@
     margin: 1rem;
     padding: 0px;
   }
-}
-
-.titulo2 {
-  font-family: 'Alegreya Sans', sans-serif;
-  text-align: center;
-  padding: 3rem;
 }
 
 /*_____ FOOTER _____*/
