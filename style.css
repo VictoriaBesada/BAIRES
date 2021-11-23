@@ -20,7 +20,7 @@
           transform: translatex(-50%);
 }
 
-@media all and (max-width: 600px) {
+@media all and (min-width: 200px) and (max-width: 600px) {
   .navbar-center {
     position: inherit;
     left: inherit;
@@ -34,7 +34,7 @@
   margin-right: 2rem;
 }
 
-@media all and (max-width: 600px) {
+@media all and (min-width: 200px) and (max-width: 600px) {
   .d-flex {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -53,7 +53,7 @@
   margin-bottom: 2rem;
 }
 
-@media all and (max-width: 600px) {
+@media all and (min-width: 200px) and (max-width: 600px) {
   .banner {
     margin-bottom: 1rem;
   }
@@ -86,7 +86,7 @@
   font-weight: bold;
 }
 
-@media all and (max-width: 600px) {
+@media all and (min-width: 200px) and (max-width: 600px) {
   .banner h1 {
     font-size: 2rem;
   }
@@ -96,13 +96,20 @@
   margin-top: 0px;
 }
 
-@media all and (max-width: 600px) {
+@media all and (min-width: 200px) and (max-width: 600px) {
   .banner h2 {
     font-size: 1.5rem;
   }
 }
 
-@media all and (max-width: 600px) {
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .carousel-inner img {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media all and (min-width: 600px) and (max-width: 800px) {
   .carousel-inner img {
     width: auto;
     height: auto;
@@ -128,7 +135,7 @@
   text-align: center;
 }
 
-@media all and (max-width: 600px) {
+@media all and (min-width: 200px) and (max-width: 600px) {
   .seccion2 {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -149,7 +156,7 @@
   margin-bottom: 2rem;
 }
 
-@media all and (max-width: 600px) {
+@media all and (min-width: 200px) and (max-width: 600px) {
   .seccion3__mapa {
     margin-bottom: 1rem;
   }
@@ -185,7 +192,7 @@
   font-weight: bold;
 }
 
-@media all and (max-width: 600px) {
+@media all and (min-width: 200px) and (max-width: 600px) {
   .heading {
     margin-top: 16rem;
   }
@@ -228,7 +235,7 @@
   text-align: center;
 }
 
-@media all and (max-width: 600px) {
+@media all and (min-width: 200px) and (max-width: 600px) {
   .grillaNos {
     display: block;
     font-size: 1rem;
@@ -303,7 +310,7 @@
   margin-top: 1.5rem;
 }
 
-@media screen and (max-width: 600px) {
+@media all and (min-width: 200px) and (max-width: 600px) {
   #grilla {
     display: block;
   }
@@ -313,11 +320,18 @@
   }
 }
 
+@media all and (min-width: 600px) and (max-width: 800px) {
+  #grilla img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
 .primerTitulo {
   margin-top: 0rem !important;
 }
 
-@media screen and (max-width: 600px) {
+@media all and (min-width: 200px) and (max-width: 600px) {
   .primerTitulo {
     margin-top: 1.5rem !important;
   }
@@ -332,7 +346,7 @@
   padding-bottom: 0px;
 }
 
-@media screen and (max-width: 600px) {
+@media all and (min-width: 200px) and (max-width: 600px) {
   .descripcion {
     margin: 2rem;
   }
@@ -345,7 +359,7 @@
   padding-left: 2rem;
 }
 
-@media screen and (max-width: 600px) {
+@media all and (min-width: 200px) and (max-width: 600px) {
   .boxes {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -360,7 +374,7 @@
   padding-right: 2rem;
 }
 
-@media screen and (max-width: 600px) {
+@media all and (min-width: 200px) and (max-width: 600px) {
   .empresas {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -386,7 +400,7 @@
           justify-content: center;
 }
 
-@media screen and (max-width: 600px) {
+@media all and (min-width: 200px) and (max-width: 600px) {
   .numeracion {
     margin-top: 2rem;
   }
@@ -435,13 +449,19 @@
   padding: 0px;
 }
 
-@media all and (max-width: 600px) {
+@media all and (min-width: 200px) and (max-width: 600px) {
   .menu, .combos {
     width: 20rem;
     display: block;
     margin: auto;
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+}
+
+@media all and (min-width: 600px) and (max-width: 800px) {
+  .menu, .combos {
+    width: auto;
   }
 }
 
@@ -479,7 +499,7 @@
   margin-bottom: 2rem;
 }
 
-@media screen and (max-width: 600px) {
+@media all and (min-width: 200px) and (max-width: 600px) {
   .formulario h2 {
     margin: 1rem;
     padding: 0px;
@@ -500,10 +520,29 @@
   font-size: 20px;
 }
 
-@media all and (max-width: 600px) {
+@media all and (min-width: 200px) and (max-width: 600px) {
   .grilla2 {
     display: block;
     text-align: center;
+    font-size: 1rem;
+  }
+}
+
+@media all and (min-width: 600px) and (max-width: 800px) {
+  .grilla2 {
+    font-size: 1rem;
+  }
+}
+
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .grilla2 h5 {
+    font-size: 1.1em;
+  }
+}
+
+@media all and (min-width: 600px) and (max-width: 800px) {
+  .grilla2 h5 {
+    font-size: 1.2rem;
   }
 }
 
@@ -525,10 +564,16 @@
   list-style: none;
 }
 
-@media all and (max-width: 600px) {
+@media all and (min-width: 200px) and (max-width: 600px) {
   .grilla2__lista1 ul {
     padding: 0rem;
     text-align: center;
+  }
+}
+
+@media all and (min-width: 600px) and (max-width: 800px) {
+  .grilla2__lista1 {
+    margin: 0.5rem;
   }
 }
 
@@ -544,6 +589,12 @@
   list-style: none;
 }
 
+@media all and (min-width: 600px) and (max-width: 800px) {
+  .grilla2__lista2 {
+    margin: 0.5rem;
+  }
+}
+
 .grilla2__lista3 {
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
@@ -554,12 +605,25 @@
 
 .grilla2__lista3 a {
   color: inherit;
-  font-size: 3rem;
+  font-size: 2rem;
   padding-right: 1rem;
 }
 
-.grilla2__lista3 button {
-  margin-bottom: 1rem;
+.grilla2__lista3 input {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.grilla2__lista3 button, .grilla2__lista3 input {
+  display: inline-block;
+  margin: auto;
+}
+
+@media all and (min-width: 600px) and (max-width: 800px) {
+  .grilla2__lista3 {
+    margin: 0.5rem;
+  }
 }
 
 .grilla2__lista1--titulo, .grilla2__lista2--titulo {
@@ -571,10 +635,29 @@
   margin-left: 2rem;
 }
 
-@media all and (max-width: 600px) {
+@media all and (min-width: 200px) and (max-width: 600px) {
   .grilla2__lista1--titulo {
     margin: 0rem;
     text-align: center;
+    font-size: 1.3rem;
+  }
+}
+
+@media all and (min-width: 600px) and (max-width: 800px) {
+  .grilla2__lista1--titulo {
+    font-size: 1.2rem;
+  }
+}
+
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .grilla2__lista2--titulo {
+    font-size: 1.3rem;
+  }
+}
+
+@media all and (min-width: 600px) and (max-width: 800px) {
+  .grilla2__lista2--titulo {
+    font-size: 1.2rem;
   }
 }
 

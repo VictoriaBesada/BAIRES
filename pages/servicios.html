@@ -185,27 +185,16 @@
       </div>
       <!--Botón de suscripción-->
       <div class="grilla2__lista3">
-        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">¡Suscribite a nuestro newsletter!</button>
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h6 class="modal-title" id="exampleModalLabel">Recibí las mejores ofertas en tu email</h6>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingresá tu email">
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                <button type="button" class="btn btn-success">¡Suscribirme!</button>
-              </div>
-            </div>
+        <form class="form-inline">
+          <div class="form-group mb-2">
+            <h5>¡Suscribite a nuestro newsletter!</h5>
           </div>
-        </div>
+          <div class="form-group mx-sm-3 mb-2">
+            <label for="inputPassword2" class="sr-only">Ingresá tu e-mail</label>
+            <input type="password" class="form-control" id="inputPassword2" placeholder="Ingresá tu e-mail">
+            <button type="submit" class="btn btn-dark mb-2">Suscribirme</button>
+          </div>
+        </form>
         <!--Redes sociales-->
         <h5>También podés contactarnos a través de los siguientes canales:</h5>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">

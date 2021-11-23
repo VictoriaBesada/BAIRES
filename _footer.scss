@@ -11,9 +11,24 @@
     color: white;
     font-size: 20px;
 
-    @media all and (max-width: 600px){
+    @media all and (min-width: 200px) and (max-width: 600px){
         display: block;
         text-align: center;
+        font-size: 1rem;
+    }
+
+    @media all and (min-width: 600px) and  (max-width: 800px){
+        font-size: 1rem;
+    }
+
+    h5{
+        @media all and (min-width: 200px) and (max-width: 600px){
+            font-size: 1.1em;
+        }
+
+        @media all and (min-width: 600px) and  (max-width: 800px){
+            font-size: 1.2rem;
+        }
     }
 }
 .grilla2__lista1{
@@ -30,11 +45,15 @@
         list-style: none;
     }
 
-    @media all and (max-width: 600px){
+    @media all and (min-width: 200px) and (max-width: 600px){
         ul{
             padding: 0rem;
             text-align: center;
         }
+    }
+
+    @media all and (min-width: 600px) and  (max-width: 800px){
+        margin: 0.5rem;
     }
 }
 .grilla2__lista2{
@@ -44,6 +63,10 @@
     li{
         list-style: none;
     }
+
+    @media all and (min-width: 600px) and  (max-width: 800px){
+        margin: 0.5rem;
+    }
 }
 .grilla2__lista3{
     grid-area: lista3;
@@ -51,12 +74,21 @@
 
     a{
         color: inherit;
-        font-size: 3rem;
+        font-size: 2rem;
         padding-right: 1rem;
     }
 
-    button{
-        margin-bottom: 1rem;
+    input{
+        width: fit-content;
+    }
+
+    button, input{
+        display: inline-block;
+        margin: auto;
+    }
+   
+    @media all and (min-width: 600px) and  (max-width: 800px){
+        margin: 0.5rem;
     }
 }
 .grilla2__lista1--titulo, .grilla2__lista2--titulo{
@@ -66,9 +98,23 @@
 .grilla2__lista1--titulo{
     margin-left: 2rem;
 
-    @media all and (max-width: 600px){
+    @media all and (min-width: 200px) and (max-width: 600px){
         margin: 0rem;
         text-align: center;
+        font-size: 1.3rem;
+    }
+
+    @media all and (min-width: 600px) and  (max-width: 800px){
+        font-size: 1.2rem;
+    }
+}
+.grilla2__lista2--titulo{
+    @media all and (min-width: 200px) and (max-width: 600px){
+        font-size: 1.3rem;
+    }
+
+    @media all and (min-width: 600px) and  (max-width: 800px){
+        font-size: 1.2rem;
     }
 }
 .modal-header h6{

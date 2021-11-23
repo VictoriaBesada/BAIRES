@@ -7,7 +7,7 @@
     min-height: 100vh;
     margin-bottom: 2rem;
 
-    @media all and (max-width: 600px){
+    @media all and (min-width: 200px) and (max-width: 600px){
         margin-bottom: 1rem;
     }
     
@@ -32,7 +32,7 @@
         font-size: 3rem;
         font-weight: bold;
 
-        @media all and (max-width: 600px){
+        @media all and (min-width: 200px) and (max-width: 600px){
             font-size: 2rem;
         }
     }
@@ -40,17 +40,24 @@
     h2{
         margin-top: 0px;
 
-        @media all and (max-width: 600px){
+        @media all and (min-width: 200px) and (max-width: 600px){
             font-size: 1.5rem;
         }
     }
 }
 .carousel-inner{
 
-    @media all and (max-width: 600px){
+    @media all and (min-width: 200px) and (max-width: 600px){
         img{
         width:auto;
         height:auto;
+        }
+    }
+
+    @media all and (min-width: 600px) and (max-width: 800px){
+        img{
+            width: auto;
+            height: auto;
         }
     }
 }
@@ -68,7 +75,7 @@
         text-align: center;
     }
 
-    @media all and (max-width: 600px) {
+    @media all and (min-width: 200px) and (max-width: 600px){
         margin-top: 1rem;
         margin-bottom: 1rem;
 
@@ -89,7 +96,7 @@
     display: block;
     margin-bottom: 2rem;
     
-    @media all and (max-width: 600px){
+    @media all and (min-width: 200px) and (max-width: 600px){
         margin-bottom: 1rem;
     }
 }
