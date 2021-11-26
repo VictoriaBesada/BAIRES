@@ -46,8 +46,8 @@
 
 /*_____ INDEX _____*/
 .banner {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#363131)), url(img/cafeteria.jpg);
-  background-image: linear-gradient(to bottom, transparent, #363131), url(img/cafeteria.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#363131)), url(/img/cafeteria.jpg);
+  background-image: linear-gradient(to bottom, transparent, #363131), url(/img/cafeteria.jpg);
   background-size: cover;
   min-height: 100vh;
   margin-bottom: 2rem;
@@ -69,6 +69,12 @@
 .banner img {
   margin-right: 12rem;
   margin-left: 2rem;
+}
+
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .banner img {
+    margin-right: 0%;
+  }
 }
 
 .banner h1, .banner h2 {
@@ -102,18 +108,16 @@
   }
 }
 
-@media all and (min-width: 200px) and (max-width: 600px) {
-  .carousel-inner img {
-    width: auto;
-    height: auto;
-  }
+.carousel-inner {
+  width: auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
-@media all and (min-width: 600px) and (max-width: 800px) {
-  .carousel-inner img {
-    width: auto;
-    height: auto;
-  }
+.carousel-inner img {
+  width: auto;
+  height: auto;
 }
 
 .seccion2 {
@@ -127,6 +131,12 @@
   margin-bottom: 3rem;
   font-family: 'Alegreya Sans', sans-serif;
   text-align: center;
+}
+
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .seccion2 a {
+    font-size: auto;
+  }
 }
 
 .seccion2 h3 {
@@ -151,35 +161,46 @@
   }
 }
 
-.seccion3__mapa {
-  display: block;
+.mapa {
   margin-bottom: 2rem;
 }
 
 @media all and (min-width: 200px) and (max-width: 600px) {
-  .seccion3__mapa {
+  .mapa {
     margin-bottom: 1rem;
   }
 }
 
 /*_____ NOSOTROS _____*/
 .bannerNosotros {
-  background-image: url(img/fondoNosotros.png);
+  background-image: url(/img/fondoNosotros.png);
   background-size: cover;
   background-position: bottom;
   min-height: 70vh;
 }
 
-.navbar {
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .bannerNosotros {
+    margin-bottom: 1rem;
+  }
+}
+
+.bannerNosotros nav {
   background-color: black;
   opacity: 90%;
   font-family: "Alegreya Sans" sans-serif;
   font-size: 1.2rem;
 }
 
-.logo {
+.bannerNosotros img {
   margin-right: 12rem;
   margin-left: 2rem;
+}
+
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .bannerNosotros img {
+    margin-right: 0%;
+  }
 }
 
 .heading {
@@ -187,15 +208,10 @@
   font-family: 'Alegreya Sans', sans-serif;
   background-color: #F29F05;
   font-size: x-large;
-  margin-top: 20%;
   padding: 0.8rem;
   font-weight: bold;
-}
-
-@media all and (min-width: 200px) and (max-width: 600px) {
-  .heading {
-    margin-top: 16rem;
-  }
+  margin-top: 16rem;
+  width: 100vw;
 }
 
 .grillaNos {
@@ -269,22 +285,34 @@
 
 /*_____ SERVICIOS _____*/
 .bannerServicios {
-  background-image: url(img/fondoServicios.png);
+  background-image: url(/img/fondoServicios.png);
   background-size: cover;
   background-position: bottom;
   min-height: 70vh;
 }
 
-.navbar {
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .bannerServicios {
+    margin-bottom: 1rem;
+  }
+}
+
+.bannerServicios nav {
   background-color: black;
   opacity: 90%;
   font-family: "Alegreya Sans" sans-serif;
   font-size: 1.2rem;
 }
 
-.logo {
+.bannerServicios img {
   margin-right: 12rem;
   margin-left: 2rem;
+}
+
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .bannerServicios img {
+    margin-right: 0%;
+  }
 }
 
 #grilla {
@@ -320,7 +348,7 @@
   }
 }
 
-@media all and (min-width: 600px) and (max-width: 800px) {
+@media all and (min-width: 601px) and (max-width: 800px) {
   #grilla img {
     width: 300px;
     height: 300px;
@@ -408,22 +436,34 @@
 
 /*_____ MENU _____*/
 .bannerMenu {
-  background-image: url(img/fondoMenu.png);
+  background-image: url(/img/fondoMenu.png);
   background-size: cover;
   background-position: bottom;
   min-height: 70vh;
 }
 
-.navbar {
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .bannerMenu {
+    margin-bottom: 1rem;
+  }
+}
+
+.bannerMenu nav {
   background-color: black;
   opacity: 90%;
   font-family: "Alegreya Sans" sans-serif;
   font-size: 1.2rem;
 }
 
-.logo {
+.bannerMenu img {
   margin-right: 12rem;
   margin-left: 2rem;
+}
+
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .bannerMenu img {
+    margin-right: 0%;
+  }
 }
 
 .menu, .combos {
@@ -459,7 +499,7 @@
   }
 }
 
-@media all and (min-width: 600px) and (max-width: 800px) {
+@media all and (min-width: 601px) and (max-width: 800px) {
   .menu, .combos {
     width: auto;
   }
@@ -467,22 +507,34 @@
 
 /*_____ CONTACTO _____*/
 .bannerContacto {
-  background-image: url(img/fondoContacto.png);
+  background-image: url(/img/fondoContacto.png);
   background-size: cover;
   background-position: center;
   min-height: 70vh;
 }
 
-.navbar {
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .bannerContacto {
+    margin-bottom: 1rem;
+  }
+}
+
+.bannerContacto nav {
   background-color: black;
   opacity: 90%;
   font-family: "Alegreya Sans" sans-serif;
   font-size: 1.2rem;
 }
 
-.logo {
+.bannerContacto img {
   margin-right: 12rem;
   margin-left: 2rem;
+}
+
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .bannerContacto img {
+    margin-right: 0%;
+  }
 }
 
 .formulario {
@@ -528,7 +580,7 @@
   }
 }
 
-@media all and (min-width: 600px) and (max-width: 800px) {
+@media all and (min-width: 601px) and (max-width: 800px) {
   .grilla2 {
     font-size: 1rem;
   }
@@ -540,13 +592,13 @@
   }
 }
 
-@media all and (min-width: 600px) and (max-width: 800px) {
+@media all and (min-width: 601px) and (max-width: 800px) {
   .grilla2 h5 {
     font-size: 1.2rem;
   }
 }
 
-.grilla2__lista1 {
+.lista1 {
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
   -ms-grid-column: 1;
@@ -555,29 +607,29 @@
   font-family: 'Alegreya Sans', sans-serif;
 }
 
-.grilla2__lista1 a {
+.lista1 a {
   color: inherit;
   text-decoration: inherit;
 }
 
-.grilla2__lista1 li {
+.lista1 li {
   list-style: none;
 }
 
 @media all and (min-width: 200px) and (max-width: 600px) {
-  .grilla2__lista1 ul {
+  .lista1 ul {
     padding: 0rem;
     text-align: center;
   }
 }
 
-@media all and (min-width: 600px) and (max-width: 800px) {
-  .grilla2__lista1 {
+@media all and (min-width: 601px) and (max-width: 800px) {
+  .lista1 {
     margin: 0.5rem;
   }
 }
 
-.grilla2__lista2 {
+.lista2 {
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
   -ms-grid-column: 2;
@@ -585,17 +637,13 @@
   font-family: 'Alegreya Sans', sans-serif;
 }
 
-.grilla2__lista2 li {
-  list-style: none;
-}
-
-@media all and (min-width: 600px) and (max-width: 800px) {
-  .grilla2__lista2 {
+@media all and (min-width: 601px) and (max-width: 800px) {
+  .lista2 {
     margin: 0.5rem;
   }
 }
 
-.grilla2__lista3 {
+.lista3 {
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
   -ms-grid-column: 3;
@@ -603,60 +651,60 @@
   font-family: 'Alegreya Sans', sans-serif;
 }
 
-.grilla2__lista3 a {
+.lista3 a {
   color: inherit;
   font-size: 2rem;
   padding-right: 1rem;
 }
 
-.grilla2__lista3 input {
+.lista3 input {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
 
-.grilla2__lista3 button, .grilla2__lista3 input {
+.lista3 button, .lista3 input {
   display: inline-block;
   margin: auto;
 }
 
-@media all and (min-width: 600px) and (max-width: 800px) {
-  .grilla2__lista3 {
+@media all and (min-width: 601px) and (max-width: 800px) {
+  .lista3 {
     margin: 0.5rem;
   }
 }
 
-.grilla2__lista1--titulo, .grilla2__lista2--titulo {
+.lista1Titulo, .lista2Titulo {
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-.grilla2__lista1--titulo {
+.lista1Titulo {
   margin-left: 2rem;
 }
 
 @media all and (min-width: 200px) and (max-width: 600px) {
-  .grilla2__lista1--titulo {
+  .lista1Titulo {
     margin: 0rem;
     text-align: center;
     font-size: 1.3rem;
   }
 }
 
-@media all and (min-width: 600px) and (max-width: 800px) {
-  .grilla2__lista1--titulo {
+@media all and (min-width: 601px) and (max-width: 800px) {
+  .lista1Titulo {
     font-size: 1.2rem;
   }
 }
 
 @media all and (min-width: 200px) and (max-width: 600px) {
-  .grilla2__lista2--titulo {
+  .lista2Titulo {
     font-size: 1.3rem;
   }
 }
 
-@media all and (min-width: 600px) and (max-width: 800px) {
-  .grilla2__lista2--titulo {
+@media all and (min-width: 601px) and (max-width: 800px) {
+  .lista2Titulo {
     font-size: 1.2rem;
   }
 }

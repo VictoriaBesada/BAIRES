@@ -17,7 +17,7 @@
         font-size: 1rem;
     }
 
-    @media all and (min-width: 600px) and  (max-width: 800px){
+    @media all and (min-width: 601px) and  (max-width: 800px){
         font-size: 1rem;
     }
 
@@ -26,12 +26,12 @@
             font-size: 1.1em;
         }
 
-        @media all and (min-width: 600px) and  (max-width: 800px){
+        @media all and (min-width: 601px) and  (max-width: 800px){
             font-size: 1.2rem;
         }
     }
 }
-.grilla2__lista1{
+.lista1{
     grid-area: lista1;
     text-align: left;
     font-family: 'Alegreya Sans', sans-serif;
@@ -52,23 +52,19 @@
         }
     }
 
-    @media all and (min-width: 600px) and  (max-width: 800px){
+    @media all and (min-width: 601px) and  (max-width: 800px){
         margin: 0.5rem;
     }
 }
-.grilla2__lista2{
+.lista2{
     grid-area: lista2;
     font-family: 'Alegreya Sans', sans-serif;
 
-    li{
-        list-style: none;
-    }
-
-    @media all and (min-width: 600px) and  (max-width: 800px){
+    @media all and (min-width: 601px) and  (max-width: 800px){
         margin: 0.5rem;
     }
 }
-.grilla2__lista3{
+.lista3{
     grid-area: lista3;
     font-family: 'Alegreya Sans', sans-serif;
 
@@ -87,15 +83,15 @@
         margin: auto;
     }
    
-    @media all and (min-width: 600px) and  (max-width: 800px){
+    @media all and (min-width: 601px) and  (max-width: 800px){
         margin: 0.5rem;
     }
 }
-.grilla2__lista1--titulo, .grilla2__lista2--titulo{
+.lista1Titulo, .lista2Titulo{
     font-size: 1.5rem;
     font-weight: bold;
 }
-.grilla2__lista1--titulo{
+.lista1Titulo{
     margin-left: 2rem;
 
     @media all and (min-width: 200px) and (max-width: 600px){
@@ -104,16 +100,16 @@
         font-size: 1.3rem;
     }
 
-    @media all and (min-width: 600px) and  (max-width: 800px){
+    @media all and (min-width: 601px) and  (max-width: 800px){
         font-size: 1.2rem;
     }
 }
-.grilla2__lista2--titulo{
+.lista2Titulo{
     @media all and (min-width: 200px) and (max-width: 600px){
         font-size: 1.3rem;
     }
 
-    @media all and (min-width: 600px) and  (max-width: 800px){
+    @media all and (min-width: 601px) and  (max-width: 800px){
         font-size: 1.2rem;
     }
 }

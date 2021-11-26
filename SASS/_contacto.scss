@@ -1,13 +1,23 @@
 /*_____ CONTACTO _____*/
 
 .bannerContacto{
-    @include banner(url(img/fondoContacto.png), cover, center, 70vh)
-}
-.navbar{
-    @include nav(black, 90%, 'Alegreya Sans' sans-serif, 1.2rem)
-}
-.logo{
-    @include img(12rem, 2rem)
+    @include banner(url(/img/fondoContacto.png), cover, center, 70vh);
+
+    @media all and (min-width: 200px) and (max-width: 600px){
+        margin-bottom: 1rem;
+    }
+    
+    nav{
+        @include nav(black, 90%, 'Alegreya Sans' sans-serif, 1.2rem)
+    }
+
+    img{
+        margin-right: 12rem;
+        margin-left: 2rem;
+        @media all and (min-width: 200px) and (max-width: 600px){
+            margin-right: 0%;
+        }
+    }
 }
 .formulario{
     padding: 2rem;
