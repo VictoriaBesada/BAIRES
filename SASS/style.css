@@ -46,8 +46,8 @@
 
 /*_____ INDEX _____*/
 .banner {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#363131)), url(/img/cafeteria.jpg);
-  background-image: linear-gradient(to bottom, transparent, #363131), url(/img/cafeteria.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#363131)), url(../img/cafeteria.jpg);
+  background-image: linear-gradient(to bottom, transparent, #363131), url(../img/cafeteria.jpg);
   background-size: cover;
   min-height: 100vh;
   margin-bottom: 2rem;
@@ -173,7 +173,7 @@
 
 /*_____ NOSOTROS _____*/
 .bannerNosotros {
-  background-image: url(/img/fondoNosotros.png);
+  background-image: url(../img/fondoNosotros.png);
   background-size: cover;
   background-position: bottom;
   min-height: 70vh;
@@ -285,7 +285,7 @@
 
 /*_____ SERVICIOS _____*/
 .bannerServicios {
-  background-image: url(/img/fondoServicios.png);
+  background-image: url(../img/fondoServicios.png);
   background-size: cover;
   background-position: bottom;
   min-height: 70vh;
@@ -436,7 +436,7 @@
 
 /*_____ MENU _____*/
 .bannerMenu {
-  background-image: url(/img/fondoMenu.png);
+  background-image: url(../img/fondoMenu.png);
   background-size: cover;
   background-position: bottom;
   min-height: 70vh;
@@ -507,7 +507,7 @@
 
 /*_____ CONTACTO _____*/
 .bannerContacto {
-  background-image: url(/img/fondoContacto.png);
+  background-image: url(../img/fondoContacto.png);
   background-size: cover;
   background-position: center;
   min-height: 70vh;

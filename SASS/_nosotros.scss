@@ -1,7 +1,7 @@
 /*_____ NOSOTROS _____*/
 
 .bannerNosotros{
-    @include banner(url(/img/fondoNosotros.png), cover, bottom, 70vh);
+    @include banner(url(../img/fondoNosotros.png), cover, bottom, 70vh);
 
     @media all and (min-width: 200px) and (max-width: 600px){
         margin-bottom: 1rem;
