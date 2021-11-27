@@ -513,19 +513,13 @@ div.c-wrapper {
   padding: 0px;
 }
 
-@media all and (min-width: 200px) and (max-width: 600px) {
+@media all and (min-width: 200px) and (max-width: 800px) {
   .menu, .combos {
     width: 20rem;
     display: block;
     margin: auto;
     padding-top: 1rem;
     padding-bottom: 1rem;
-  }
-}
-
-@media all and (min-width: 601px) and (max-width: 800px) {
-  .menu, .combos {
-    width: auto;
   }
 }
 
