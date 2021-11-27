@@ -44,6 +44,8 @@
 
         @media all and (min-width: 200px) and (max-width: 600px){
             font-size: 1.5rem;
+            margin-right: 0.5rem;
+            margin-left: 0.5rem;
         }
     }
 }
@@ -92,6 +94,20 @@
         img{
             padding: 0.5rem
         }
+
+        .card{
+        margin: 5px;
+
+        .btn{
+            font-size: 0.8rem;
+        }
+    }
+    }
+
+    @media all and (min-width: 601px) and (max-width: 800px){
+        img{
+            padding: 0.5rem;
+        }
     }
 }
 .mapa{
@@ -101,4 +117,8 @@
     @media all and (min-width: 200px) and (max-width: 600px){
         margin-bottom: 1rem;
     }
+}
+div.c-wrapper{
+    width: 80%; 
+    margin: auto;
 }

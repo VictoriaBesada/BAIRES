@@ -20,7 +20,7 @@
           transform: translatex(-50%);
 }
 
-@media all and (min-width: 200px) and (max-width: 600px) {
+@media all and (min-width: 200px) and (max-width: 991px) {
   .navbar-center {
     position: inherit;
     left: inherit;
@@ -34,7 +34,7 @@
   margin-right: 2rem;
 }
 
-@media all and (min-width: 200px) and (max-width: 600px) {
+@media all and (min-width: 200px) and (max-width: 991px) {
   .d-flex {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -105,6 +105,8 @@
 @media all and (min-width: 200px) and (max-width: 600px) {
   .banner h2 {
     font-size: 1.5rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
   }
 }
 
@@ -159,6 +161,18 @@
   .seccion2 img {
     padding: 0.5rem;
   }
+  .seccion2 .card {
+    margin: 5px;
+  }
+  .seccion2 .card .btn {
+    font-size: 0.8rem;
+  }
+}
+
+@media all and (min-width: 601px) and (max-width: 800px) {
+  .seccion2 img {
+    padding: 0.5rem;
+  }
 }
 
 .mapa {
@@ -169,6 +183,11 @@
   .mapa {
     margin-bottom: 1rem;
   }
+}
+
+div.c-wrapper {
+  width: 80%;
+  margin: auto;
 }
 
 /*_____ NOSOTROS _____*/
@@ -210,7 +229,13 @@
   font-size: x-large;
   padding: 0.8rem;
   font-weight: bold;
-  margin-top: 16rem;
+  margin-top: 20rem;
+}
+
+@media all and (min-width: 750px) and (max-width: 1326px) {
+  .heading {
+    margin-top: 35rem;
+  }
 }
 
 .grillaNos {
