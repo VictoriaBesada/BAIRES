@@ -3,9 +3,6 @@
 .bannerContacto{
     @include banner(url(../img/fondoContacto.png), cover, center, 70vh);
 
-    @media all and (min-width: 200px) and (max-width: 600px){
-        margin-bottom: 1rem;
-    }
     
     nav{
         @include nav(black, 90%, 'Alegreya Sans' sans-serif, 1.2rem)

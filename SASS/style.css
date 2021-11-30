@@ -205,12 +205,6 @@ div.c-wrapper {
   min-height: 70vh;
 }
 
-@media all and (min-width: 200px) and (max-width: 600px) {
-  .bannerNosotros {
-    margin-bottom: 1rem;
-  }
-}
-
 .bannerNosotros nav {
   background-color: black;
   opacity: 90%;
@@ -313,12 +307,6 @@ div.c-wrapper {
   background-size: cover;
   background-position: bottom;
   min-height: 70vh;
-}
-
-@media all and (min-width: 200px) and (max-width: 600px) {
-  .bannerServicios {
-    margin-bottom: 1rem;
-  }
 }
 
 .bannerServicios nav {
@@ -456,12 +444,6 @@ div.c-wrapper {
   min-height: 70vh;
 }
 
-@media all and (min-width: 200px) and (max-width: 600px) {
-  .bannerMenu {
-    margin-bottom: 1rem;
-  }
-}
-
 .bannerMenu nav {
   background-color: black;
   opacity: 90%;
@@ -533,12 +515,6 @@ div.c-wrapper {
   background-size: cover;
   background-position: center;
   min-height: 70vh;
-}
-
-@media all and (min-width: 200px) and (max-width: 600px) {
-  .bannerContacto {
-    margin-bottom: 1rem;
-  }
 }
 
 .bannerContacto nav {
