@@ -40,6 +40,11 @@
         margin-top: 1.5rem;
     }
 
+    .btn:hover{
+        background-color: white;
+        color: black;
+    }
+
     @media all and (min-width: 200px) and (max-width: 600px){
         display: block;
 
@@ -67,9 +72,8 @@
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 1.5rem;
     text-align: center;
-    margin-top: 4rem;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
     
     @media all and (min-width: 200px) and (max-width: 600px){
         margin: 2rem;
@@ -78,6 +82,11 @@
 .boxes{
     grid-area: boxes;
     padding-left: 2rem;
+
+    .badge{
+        font-size: 1rem;
+        color: black;
+    }
 
     @media all and (min-width: 200px) and (max-width: 600px){
         padding-left: 1rem;
@@ -98,13 +107,4 @@
 .boxes, .empresas{
     font-size: 1rem;
     text-align: center;
-}
-.numeracion{
-    grid-area: numeracion;
-    display: flex;
-    justify-content: center;
-
-    @media all and (min-width: 200px) and (max-width: 600px){
-        margin-top: 2rem;
-    }
 }

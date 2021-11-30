@@ -26,9 +26,6 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav navbar-center">
             <li class="nav-item">
-              <a class="nav-link" href="../index.html">Home</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
             </li>
             <li class="nav-item">
@@ -48,19 +45,19 @@
         </form>
       </div>
     </nav>
+  </header>
+  
+  <main class="backgroundColor">
     <section>
       <h1 class="heading">Contacto</h1>
     </section>
-  </header>
-  
-  <main class="formulario">
     <!--Introducción a la página de Contacto-->
-    <h2>Si tenés una consulta, no dudes en rellenar el siguiente formulario y enseguida nos ponemos en contacto.</h2>
+    <h2 class="descripcion2">Si tenés una consulta, no dudes en rellenar el siguiente formulario y enseguida nos ponemos en contacto.</h2>
     <!--Formulario-->
-    <form class="row g-3">
+    <form class=" formulario row g-3">
       <div class="col-md-6">
         <label for="inputEmail4" class="form-label">Nombre</label>
-        <input type="email" class="form-control" id="inputEmail4">
+        <input  type="email" class="form-control" id="inputEmail4" >
       </div>
       <div class="col-md-6">
         <label for="inputPassword4" class="form-label">Apellido</label>
@@ -90,16 +87,6 @@
       <div class="mb-3">
         <label for="exampleFormControlTextarea1" class="form-label">Tu consulta</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-      <label for="inputState" class="form-label">Me interesa que me contacten por:</label>
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-        <label class="form-check-label" for="flexCheckDefault">E-mail
-        </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-        <label class="form-check-label" for="flexCheckChecked">Teléfono</label>
       </div>
       <div class="col-12">
         <!-- Button Enviar -->
@@ -140,7 +127,7 @@
       </div>
       <!--Info de contacto-->
       <div class="lista2">
-        <h4 class="lista2Titulo">Contactanos!</h4>
+        <h4 class="lista2Titulo">Contactanos</h4>
         <p>Estamos a tu disposición</p>
         <p>0800-123-456</p>
         <p>cafeteria@baires.com</p>
@@ -149,9 +136,9 @@
       <div class="lista3">
         <form class="form-inline">
           <div class="form-group mb-2">
-            <h5>¡Suscribite a nuestro newsletter!</h5>
+            <h5 class="lista3Titulo">¡Suscribite a nuestro newsletter!</h5>
           </div>
-          <div class="form-group mx-sm-3 mb-2">
+          <div class="suscribirme form-group mx-sm-3 mb-2">
             <label for="inputPassword2" class="sr-only">Ingresá tu e-mail</label>
             <input type="password" class="form-control" id="inputPassword2" placeholder="Ingresá tu e-mail">
             <button type="submit" class="btn btn-dark mb-2">Suscribirme</button>
@@ -159,10 +146,12 @@
         </form>
         <!--Redes sociales-->
         <h5>También podés contactarnos a través de los siguientes canales:</h5>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-        <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
-        <a href="https://www.instagram.com/?hl=es"><i class="fab fa-instagram"></i></a>
-        <a href="https://web.whatsapp.com/"><i class="fab fa-whatsapp-square"></i></a>
+        <div class="iconos">
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+          <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+          <a href="https://www.instagram.com/?hl=es"><i class="fab fa-instagram"></i></a>
+          <a href="https://web.whatsapp.com/"><i class="fab fa-whatsapp-square"></i></a>
+        </div>
       </div>
     </section>
   </footer>

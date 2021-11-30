@@ -37,6 +37,10 @@
         padding: 0px;
     }
 
+    .btn:hover{
+        background-color: white;
+    }
+
     @media all and (min-width: 200px) and (max-width: 600px){
         width: 20rem;
         display: block;

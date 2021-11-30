@@ -4,7 +4,6 @@
     background-image: linear-gradient(to bottom, transparent, rgb(54, 49, 49)), url(../img/cafeteria.jpg);
     background-size: cover;
     min-height: 100vh;
-    margin-bottom: 2rem;
 
     @media all and (min-width: 200px) and (max-width: 600px){
         margin-bottom: 1rem;
@@ -48,6 +47,9 @@
             margin-left: 0.5rem;
         }
     }
+}
+.backgroundColor{
+    background-color: #EFEAE2;
 }
 .carousel-inner{
     width: auto;
@@ -102,6 +104,10 @@
             font-size: 0.8rem;
         }
     }
+    }
+
+    .btn:hover{
+        background-color: white;
     }
 
     @media all and (min-width: 601px) and (max-width: 800px){
