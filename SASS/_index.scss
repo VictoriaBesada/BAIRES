@@ -113,6 +113,11 @@
         }
     }
 }
+.card:hover{
+    box-shadow: 10px 10px 5px grey;
+    transition-duration: 1s;
+    
+}
 .mapa{
     margin-bottom: 2rem;
     
