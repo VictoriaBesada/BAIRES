@@ -4,10 +4,6 @@
     background-image: linear-gradient(to bottom, transparent, rgb(54, 49, 49)), url(../img/cafeteria.jpg);
     background-size: cover;
     min-height: 100vh;
-
-    @media all and (min-width: 200px) and (max-width: 600px){
-        margin-bottom: 1rem;
-    }
     
     nav{
         @include nav(black, 90%, 'Alegreya Sans' sans-serif, 1.2rem)
@@ -54,6 +50,7 @@
 .carousel-inner{
     width: auto;
     height: fit-content;
+    padding-top: 2rem;
 
     img{
     width: auto;

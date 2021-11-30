@@ -52,12 +52,6 @@
   min-height: 100vh;
 }
 
-@media all and (min-width: 200px) and (max-width: 600px) {
-  .banner {
-    margin-bottom: 1rem;
-  }
-}
-
 .banner nav {
   background-color: black;
   opacity: 90%;
@@ -118,6 +112,7 @@
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  padding-top: 2rem;
 }
 
 .carousel-inner img {
