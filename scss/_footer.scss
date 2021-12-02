@@ -1,4 +1,4 @@
-/*_____ FOOTER _____*/
+/*_____ FOOTER _______________________________________________________________________________________________________*/
 
 .grilla2{
     display: grid;
@@ -34,6 +34,8 @@
 }
 .lista1{
     grid-area: lista1;
+    grid-row: 1;
+    grid-column: 1;
     text-align: left;
     font-family: 'Alegreya Sans', sans-serif;
 
@@ -59,6 +61,8 @@
 }
 .lista2{
     grid-area: lista2;
+    grid-row: 1;
+    grid-column: 2;
     font-family: 'Alegreya Sans', sans-serif;
     text-align: left;
 
@@ -76,6 +80,8 @@
 }
 .lista3{
     grid-area: lista3;
+    grid-row: 1;
+    grid-column: 3;
     font-family: 'Alegreya Sans', sans-serif;
 
     .suscribirme{

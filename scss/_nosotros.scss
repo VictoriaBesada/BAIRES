@@ -1,4 +1,4 @@
-/*_____ NOSOTROS _____*/
+/*_____ NOSOTROS _____________________________________________________________________________________________________*/
 
 .bannerNosotros{
     @include banner(url(../img/fondoNosotros.png), cover, bottom, 70vh);
@@ -65,14 +65,22 @@
 }
 .historia{
 grid-area: historia;
+grid-row: 1;
+grid-column: 1;
 }
 .valores{
 grid-area: valores;
 list-style:none;
+grid-row: 1;
+grid-column: 2;
 }
 .mision{
 grid-area: mision;
+grid-row: 2;
+grid-column: 1;
 }
 .vision{
 grid-area: vision;
+grid-row: 2;
+grid-column: 2;
 }

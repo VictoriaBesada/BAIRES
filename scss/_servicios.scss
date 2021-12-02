@@ -1,4 +1,4 @@
-/*_____ SERVICIOS _____*/
+/*_____ SERVICIOS ____________________________________________________________________________________________________*/
 
 .bannerServicios{
     @include banner(url(../img/fondoServicios.png), cover, bottom, 70vh);
@@ -20,7 +20,7 @@
     display: grid;
     grid-template-areas: "boxes empresas"
     "boxes empresas";
-    grid-template-rows: 1fr 40fr;
+    grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 10px;
     grid-column-gap: 20px;
@@ -79,6 +79,8 @@
 .boxes{
     grid-area: boxes;
     padding-left: 2rem;
+    grid-row: 1;
+    grid-column: 1;
 
     .badge{
         font-size: 1rem;
@@ -94,6 +96,8 @@
 .empresas{
     grid-area: empresas;
     padding-right: 2rem;
+    grid-row: 1;
+    grid-column: 2;
 
     @media all and (min-width: 200px) and (max-width: 600px){
         padding-left: 1rem;
