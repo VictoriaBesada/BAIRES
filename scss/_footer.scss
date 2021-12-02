@@ -144,6 +144,16 @@
         margin-top: 1rem;
     }
 }
+.suscribirme{
+    button{
+        margin: 5px;
+    }
+
+    button:hover{
+        background-color:orange;
+        color: black;
+    }
+}
 .modal-header h6{
     color: black;
 }
