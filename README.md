@@ -4,8 +4,7 @@
 ***
 
 **Como surgió el proyecto:**
-
-Estoy en la última etapa del proceso de creación de mi primer sitio web. En esta ocasión, decidí hacer una cafetería argentina, ya que en un viaje que hice a España, noté una increíble cantidad de argentinos. En mi experiencia allá, una de las cosas que más extrañé, fueron las facturas argentinas. Por esta razón, vi la necesidad de crear una cafetería típica argentina en aquel país, pensada especialmente para todos aquellos argentinos extrañando su hogar. 
+En esta ocasión, decidí hacer una cafetería argentina, ya que en un viaje que hice a España, noté una increíble cantidad de argentinos. En mi experiencia allá, una de las cosas que más extrañé, fueron las facturas argentinas. Por esta razón, vi la necesidad de crear una cafetería típica argentina en aquel país, pensada especialmente para todos aquellos argentinos extrañando su hogar. 
 ***
 
 **Sobre el proyecto:**
