@@ -21,7 +21,7 @@ El objetivo de esta página es que el usuario conozca un poco más sobre nosotro
 
 * Servicios
 
-En esta página, exponemos y describimos cada servicio que ofrecemos, tanto para clientes particulares como para empresas.
+En esta página, exponemos y describimos cada servicio que ofrecemos, tanto para clientes particulares como para empresas. Actualmente estoy trabajando en incorporar JavaScript a esta sección, para realizar un carrito de compras.
 
 * Menú
 
